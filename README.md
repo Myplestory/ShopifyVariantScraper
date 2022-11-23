@@ -19,7 +19,9 @@ HOW TO CREATE BOT -
 
 >Create new application, and create a bot for the app
 
->Reset Token, and paste new one into .env file
+>Open script with text editor
+
+>Reset Token, and paste fresh token into TOKEN within the quotes, then save as .py file
 
 >Enable all Privileged Gateway Intents
 
