@@ -1,10 +1,10 @@
 import discord
-from discord.ext import commands
 import requests
-import json
+import os
 from bs4 import BeautifulSoup
+from discord.ext import commands
 
-Token = 'MTA0NDgxNTk5MTYzNDQxNTc1Ng.GWRjtD.lAPuWpSQabUT1EHVo_ZrZ3fgqXjM3t3BOwh790'
+
 
 intents = discord.Intents.default()
 intents.messages = True
@@ -80,4 +80,4 @@ async def help(ctx):
   )
   await ctx.send(embed=embed)
 
-bot.run(Token)
+bot.run(os.getenv('DISCORD_TOKEN'))
