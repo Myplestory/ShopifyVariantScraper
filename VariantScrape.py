@@ -1,10 +1,12 @@
 import discord
 import requests
 import os
+import dotenv
 from bs4 import BeautifulSoup
 from discord.ext import commands
 
-
+#Your Discord Bot token goes here
+TOKEN = 'MTA0NDgxNTk5MTYzNDQxNTc1Ng.Gx9UWQ.FuCgjTnblB5cQQLo3FK5UdTkJrJGl4mu3whLlI'
 
 intents = discord.Intents.default()
 intents.messages = True
@@ -80,4 +82,5 @@ async def help(ctx):
   )
   await ctx.send(embed=embed)
 
-bot.run(os.getenv('DISCORD_TOKEN'))
+print('Ready to Scrape!')
+bot.run(TOKEN)
