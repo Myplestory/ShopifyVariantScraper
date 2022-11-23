@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from discord.ext import commands
 
 #Your Discord Bot token goes here
-TOKEN = 'MTA0NDgxNTk5MTYzNDQxNTc1Ng.Gx9UWQ.FuCgjTnblB5cQQLo3FK5UdTkJrJGl4mu3whLlI'
+TOKEN = ''
 
 intents = discord.Intents.default()
 intents.messages = True
