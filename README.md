@@ -4,11 +4,15 @@ https://github.com/Myplestory
 Basic Python script to scrape shopify variant ids.
 
 REQUIREMENTS - 
-Discord
-requests
-os
-beautifulsoup from bs4
-commands from discord.ext
+>Discord
+
+>requests
+
+>os
+
+>beautifulsoup from bs4
+
+>commands from discord.ext
 
 HOW TO CREATE BOT - 
 >Go to https://discord.com/developers/applications and login
