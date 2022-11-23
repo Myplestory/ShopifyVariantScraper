@@ -71,7 +71,7 @@ async def help(ctx):
     color=discord.Colour.green()
   )
   embed.add_field(
-    name='~help',
+    name='!help',
     value='List of VariantScraper Commands',
     inline=True
   )
